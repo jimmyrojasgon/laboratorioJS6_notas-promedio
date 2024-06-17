@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="estilos.css">
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+ <div class="container">
+  <h1>Ingresa tus Notas</h1>
+  <form id="miFormulario">
+    <!-- Campo de Texto -->
+    <div class="form-group">
+      <label for="codigo">Código:</label>
+      <input type="text" id="codigo" name="codigo">
+      <span class="error" id="codigoError"></span>
+    </div>
+    <!-- Campo de Texto -->
+    <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre">
+      <span class="error" id="nombreError"></span>
+    </div>
+    
+
+    <!-- Campo de notas -->
+    <div class="Alummno">
+      <label for="nota">Notas15%</label>
+      <input type="text" id="nota1">
+      <label for="nota">Nota 20%</label>
+      <input type="text" id="nota2">
+      <label for="">Nota 25%</label>
+      <input type="text" id="nota3">
+      <label for="">Nota 40%</label>
+      <input type="text" id="nota4">
+      <span class="error" id="ciudadError"></span>
+    </div>
+
+    <button type="submit" id="promedio">CALCULAR</button>
+  </form>
+  <script src="tarea10.js"></script>
+</div>
+</body>
+</html>
